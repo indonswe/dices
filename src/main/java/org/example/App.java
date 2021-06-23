@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        //Dice dice1 = new Dice(1);
+        int number = Dice.D6.random(Dice.D6);
     }
 }
